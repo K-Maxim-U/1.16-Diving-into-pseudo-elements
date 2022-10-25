@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Контакты - Сайт группы</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        <script defer src="../js/login-popup.js"></script>
+    </head>
+    <body class="page">
+        <header class="header">
+            <img class="site-logo" src="../img/logo.svg" alt="Логотип">
+            <ul class="site-menu">
+                <li><a class="menu-link" href="../index.html">Главная</a></li>
+                <li><a class="menu-link" href="../pages/students.html">Студенты</a></li>
+                <li><a class="menu-link" href="../pages/about.html">О курсе</a></li>
+                <li><a class="menu-link active-link" href="#">Контакты</a></li>
+            </ul>
+            <a class="login-button" href="login.html">Войти</a>
+            <div class="login-popup">
+                <h2 class="login-headng">Войти на сайт</h2>
+                <form class="login-form" action="#" method="GET">
+                    <input class="login-input" name="login" type="text" placeholder="Логин" required="">
+                    <input class="password-input" name="password" type="password" placeholder="Пароль" required="">
+                    <button class="popup-buttn" type="submit">Войти</button>
+                </form>
+            </div>
+        </header> 
+        <main class="main contacts-about">
+            <h1 class="main-heading contacts-heading"> Как нас найти <img class="world-map" src="../img/world-map.png" alt="Карта мира" width="31" height="31"></h1>
+            <div class="contacts-maps" style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/shkola_gimnaziya_6/1061043241/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Школа-Гимназия № 6</a><a href="https://yandex.ru/maps/162/almaty/category/gymnasium/184106234/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Гимназия в Алматы</a><iframe class="yandex-map" src="https://yandex.ru/map-widget/v1/-/CCUZVKxZLA" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+            <h2 class="contacts-text-heading">Наши контакты</h2>
+            <address class="contacts-address">
+                <p> Адресс: Республика Казахстан, город Алматы, 5-й микрорайон, дом 49А</p>
+                <a class="contacts-tel" href="tel:+78432039253">Тел: +7 (747) 237-77-76</a>   
+            </address>
+        </main>
+        <footer class="footer"> 
+            <p class="copywraite">2022 &#169; <a class="innopolis-link" href="https://innopolis.com/">Иннополис</a></p>
+        </footer>
+    </body>
+</html>
